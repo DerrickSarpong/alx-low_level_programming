@@ -3,8 +3,8 @@
 
 /**
  * main - Check description
- * Description: Prints _putchar followed by a new line
- * Rreturn: Always 0 (Success)
+ * Description: It prints the word _putchar, followed by a new line
+ * Return: Always 0 (Success)
  */
 
 int main(void)
