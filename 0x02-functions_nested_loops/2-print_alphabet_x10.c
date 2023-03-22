@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * print_alphabet_x10 - Check description
+ * Description: It prints the alphabet in lowercase fallowed by a new line
+ * Return: Nothing.
+ */
+void print_alphabet_x10(void)
+{
+	char  j;
+	int i;	
+	for (i = 0; i < 11; i++)
+	{	
+		for (j = 'a'; j <= 'z'; j++)
+		{
+			_putchar(j);
+		}
+	_putchar('\n');
+	}
+}
