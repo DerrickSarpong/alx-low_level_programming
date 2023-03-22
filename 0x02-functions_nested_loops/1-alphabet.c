@@ -3,7 +3,7 @@
 
 /**
  * main - check code
- *
+ * Description: This function prints the alphabet in lowercase followe by a new line
  * Return: Always 0
  */
 
