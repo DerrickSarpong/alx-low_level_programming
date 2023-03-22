@@ -2,7 +2,7 @@
 
 /**
  * _abs - Check main
- * @r: Integer input 
+ * @r : Input integer.
  * Description: Prints the absolute of an integer.
  * Return: Abolute value of integer r.
  */
