@@ -40,7 +40,7 @@ void rev_string(char *s)
 	while (i < len)
 	{
 		a = s[i];
- 		z = s[len];
+		z = s[len];
 		s[i++] = z;
 		s[len--] = a;
 	}
