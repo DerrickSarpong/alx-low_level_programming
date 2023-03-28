@@ -2,8 +2,9 @@
 
 /**
 * _strlen: Returns the length of a string
-* @s: Input string
-*
+* @str: Input string
+* Description: Printing the length of an input string
+* 
 * Return: The length of the string
 */
 
