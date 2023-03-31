@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * _strcat - a function that concatenates two strings.
- * @dest: an input string
- * @src: an input string
- * @n: copy up to position n
- * Return: A pointer to the resulting string
- */
+* _strncat - a function that concatenates two strings.
+* @dest: an input string
+* @src: an input string
+* @n: copy up to position n
+* Return: A pointer to the resulting string
+*/
+
 char *_strncat(char *dest, char *src, int n)
 {
 	int len = 0, i = 0;
