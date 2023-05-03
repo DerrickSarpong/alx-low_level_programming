@@ -1,32 +1,24 @@
 #include "lists.h"
 
 /**
- * free_listint2 - frees all the node in a list and reset the head to NULL.
- * @head: pointer of pointer to a list.
+ * pop_listint - delete the head node and return it's value.
+ * @head: pointer of a pointer to a listint_t
+ *
+ * Return: value of the delete node (INT)
  */
-void free_listint2(listint_t **head)
+int pop_listint(listint_t **head)
 {
-	listint_t *temp;
+	int value;
+	listint_t *new_head;
 
-	if (!head)
-		return;
-	if (*head)
-	{
-		temp = *head;
-		*head = NULL;
-		free_listint(temp);
-		return;
-	}
-}
-/**
- * free_listint - frees all the node in a list.
- * @head: pointer to a list.
- */
-void free_listint(listint_t *head)
-{
-	if (!head)
-		return;
-	free_listint(head->next);
-	free(head);
+	if (!(*head) || !head)
+		return (0);
+
+	new_head = (*head)->next;
+	value = (*head)->n;
+	free(*head);
+	*head = new_head;
+
+	return (value);
 }
 
